@@ -1,0 +1,10 @@
+jar/App.class
+com/example/inverted_method/WordCountAndSortInverted$FrequencyCountReducer.class
+com/example/inverted_method/WordCountAndSortInverted$InvertedIndexReducer.class
+com/example/inverted_method/WordCountAndSortInverted$SortingReducer.class
+com/example/inverted_method/WordCountAndSortInverted.class
+com/example/inverted_method/WordCountAndSortInverted$InvertedIndexMapper.class
+com/example/inverted_method/WordCountAndSortInverted$SortingMapper.class
+com/example/inverted_method/WordCountAndSortInverted$FrequencyCountMapper.class
+com/example/inverted_method/WordCountAndSortInverted$IntWritableDecreasingComparator.class
+com/example/inverted_method/DescendingIntWritableComparator.class
