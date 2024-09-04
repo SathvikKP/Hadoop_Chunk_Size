@@ -170,6 +170,7 @@ public class WordCountAndSortInverted {
         job1.setReducerClass(InvertedIndexReducer.class);
         job1.setOutputKeyClass(Text.class);
         job1.setOutputValueClass(Text.class);
+        job1.setNumReduceTasks(1);
         FileInputFormat.addInputPath(job1, new Path(args[0]));
         FileOutputFormat.setOutputPath(job1, new Path(args[1]));
         job1.waitForCompletion(true);
@@ -181,6 +182,7 @@ public class WordCountAndSortInverted {
         job2.setReducerClass(FrequencyCountReducer.class);
         job2.setOutputKeyClass(Text.class);
         job2.setOutputValueClass(IntWritable.class);
+        job2.setNumReduceTasks(1);
         FileInputFormat.addInputPath(job2, new Path(args[1]));
         FileOutputFormat.setOutputPath(job2, new Path(args[2]));
         job2.waitForCompletion(true);
