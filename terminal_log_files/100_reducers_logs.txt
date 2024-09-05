@@ -1,0 +1,657 @@
+satkp@Sathvik:~/BigData/Programs/wordcount/prog_2$ ./runme
+WARNING: Use of this script to execute dfs is deprecated.
+WARNING: Attempting to execute replacement "hdfs dfs" instead.
+
+rm: `/output/WordCount/temp': No such file or directory
+rm: `/output/WordCount/Shake': No such file or directory
+WARNING: Use of this script to execute dfs is deprecated.
+WARNING: Attempting to execute replacement "hdfs dfs" instead.
+
+Deleted /output/gutenberg/output
+Deleted /output/gutenberg/temp
+
+args[1] = /input/project_gutenberg/books_v1_100, args[2] =  /output/gutenberg/temp, args[3] = /output/gutenberg/output/
+
+2024-09-03 10:18:34,070 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-09-03 10:18:34,434 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-09-03 10:18:34,448 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/satkp/.staging/job_1725371032384_0001
+2024-09-03 10:18:35,080 INFO input.FileInputFormat: Total input files to process : 100
+2024-09-03 10:18:36,744 INFO mapreduce.JobSubmitter: number of splits:100
+2024-09-03 10:18:38,070 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1725371032384_0001
+2024-09-03 10:18:38,070 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-09-03 10:18:38,224 INFO conf.Configuration: resource-types.xml not found
+2024-09-03 10:18:38,224 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-09-03 10:18:38,626 INFO impl.YarnClientImpl: Submitted application application_1725371032384_0001
+2024-09-03 10:18:38,652 INFO mapreduce.Job: The url to track the job: http://Sathvik.:8088/proxy/application_1725371032384_0001/
+2024-09-03 10:18:38,652 INFO mapreduce.Job: Running job: job_1725371032384_0001
+2024-09-03 10:18:43,741 INFO mapreduce.Job: Job job_1725371032384_0001 running in uber mode : false
+2024-09-03 10:18:43,742 INFO mapreduce.Job:  map 0% reduce 0%
+2024-09-03 10:18:48,826 INFO mapreduce.Job:  map 4% reduce 0%
+2024-09-03 10:18:49,834 INFO mapreduce.Job:  map 6% reduce 0%
+2024-09-03 10:18:52,865 INFO mapreduce.Job:  map 12% reduce 0%
+2024-09-03 10:18:56,886 INFO mapreduce.Job:  map 18% reduce 0%
+2024-09-03 10:19:00,914 INFO mapreduce.Job:  map 24% reduce 0%
+2024-09-03 10:19:04,938 INFO mapreduce.Job:  map 29% reduce 0%
+2024-09-03 10:19:06,948 INFO mapreduce.Job:  map 30% reduce 0%
+2024-09-03 10:19:07,952 INFO mapreduce.Job:  map 31% reduce 0%
+2024-09-03 10:19:08,958 INFO mapreduce.Job:  map 34% reduce 0%
+2024-09-03 10:19:09,964 INFO mapreduce.Job:  map 35% reduce 0%
+2024-09-03 10:19:10,981 INFO mapreduce.Job:  map 36% reduce 0%
+2024-09-03 10:19:11,987 INFO mapreduce.Job:  map 39% reduce 0%
+2024-09-03 10:19:12,994 INFO mapreduce.Job:  map 40% reduce 0%
+2024-09-03 10:19:15,006 INFO mapreduce.Job:  map 41% reduce 0%
+2024-09-03 10:19:16,013 INFO mapreduce.Job:  map 44% reduce 13%
+2024-09-03 10:19:17,019 INFO mapreduce.Job:  map 45% reduce 13%
+2024-09-03 10:19:19,028 INFO mapreduce.Job:  map 49% reduce 13%
+2024-09-03 10:19:21,041 INFO mapreduce.Job:  map 50% reduce 13%
+2024-09-03 10:19:22,051 INFO mapreduce.Job:  map 50% reduce 17%
+2024-09-03 10:19:23,056 INFO mapreduce.Job:  map 54% reduce 17%
+2024-09-03 10:19:24,061 INFO mapreduce.Job:  map 55% reduce 17%
+2024-09-03 10:19:27,080 INFO mapreduce.Job:  map 60% reduce 17%
+2024-09-03 10:19:28,084 INFO mapreduce.Job:  map 60% reduce 19%
+2024-09-03 10:19:31,097 INFO mapreduce.Job:  map 65% reduce 19%
+2024-09-03 10:19:34,114 INFO mapreduce.Job:  map 65% reduce 22%
+2024-09-03 10:19:35,119 INFO mapreduce.Job:  map 70% reduce 22%
+2024-09-03 10:19:37,128 INFO mapreduce.Job:  map 71% reduce 22%
+2024-09-03 10:19:39,136 INFO mapreduce.Job:  map 75% reduce 22%
+2024-09-03 10:19:40,140 INFO mapreduce.Job:  map 76% reduce 25%
+2024-09-03 10:19:41,145 INFO mapreduce.Job:  map 77% reduce 25%
+2024-09-03 10:19:43,168 INFO mapreduce.Job:  map 81% reduce 25%
+2024-09-03 10:19:45,179 INFO mapreduce.Job:  map 82% reduce 25%
+2024-09-03 10:19:46,184 INFO mapreduce.Job:  map 85% reduce 27%
+2024-09-03 10:19:47,191 INFO mapreduce.Job:  map 87% reduce 27%
+2024-09-03 10:19:49,204 INFO mapreduce.Job:  map 89% reduce 27%
+2024-09-03 10:19:50,209 INFO mapreduce.Job:  map 92% reduce 27%
+2024-09-03 10:19:51,214 INFO mapreduce.Job:  map 94% reduce 27%
+2024-09-03 10:19:52,220 INFO mapreduce.Job:  map 95% reduce 31%
+2024-09-03 10:19:53,226 INFO mapreduce.Job:  map 96% reduce 31%
+2024-09-03 10:19:54,232 INFO mapreduce.Job:  map 99% reduce 31%
+2024-09-03 10:19:55,237 INFO mapreduce.Job:  map 100% reduce 31%
+2024-09-03 10:19:57,242 INFO mapreduce.Job:  map 100% reduce 100%
+2024-09-03 10:20:00,260 INFO mapreduce.Job: Job job_1725371032384_0001 completed successfully
+2024-09-03 10:20:00,321 INFO mapreduce.Job: Counters: 54
+        File System Counters
+                FILE: Number of bytes read=9024648
+                FILE: Number of bytes written=49235190
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=32654859
+                HDFS: Number of bytes written=1315657
+                HDFS: Number of read operations=305
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters
+                Launched map tasks=100
+                Launched reduce tasks=1
+                Data-local map tasks=100
+                Total time spent by all maps in occupied slots (ms)=270914
+                Total time spent by all reduces in occupied slots (ms)=54954
+                Total time spent by all map tasks (ms)=270914
+                Total time spent by all reduce tasks (ms)=54954
+                Total vcore-milliseconds taken by all map tasks=270914
+                Total vcore-milliseconds taken by all reduce tasks=54954
+                Total megabyte-milliseconds taken by all map tasks=277415936
+                Total megabyte-milliseconds taken by all reduce tasks=56272896
+        Map-Reduce Framework
+                Map input records=641966
+                Map output records=5481372
+                Map output bytes=51729934
+                Map output materialized bytes=9025242
+                Input split bytes=13440
+                Combine input records=5481372
+                Combine output records=638079
+                Reduce input groups=113474
+                Reduce shuffle bytes=9025242
+                Reduce input records=638079
+                Reduce output records=113474
+                Spilled Records=1276158
+                Shuffled Maps =100
+                Failed Shuffles=0
+                Merged Map outputs=100
+                GC time elapsed (ms)=15327
+                CPU time spent (ms)=190510
+                Physical memory (bytes) snapshot=42736992256
+                Virtual memory (bytes) snapshot=262070628352
+                Total committed heap usage (bytes)=39066796032
+                Peak Map Physical memory (bytes)=525090816
+                Peak Map Virtual memory (bytes)=2607648768
+                Peak Reduce Physical memory (bytes)=304386048
+                Peak Reduce Virtual memory (bytes)=2606133248
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=32641419
+        File Output Format Counters
+                Bytes Written=1315657
+2024-09-03 10:20:00,344 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-09-03 10:20:00,377 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-09-03 10:20:00,386 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/satkp/.staging/job_1725371032384_0002
+2024-09-03 10:20:01,614 INFO input.FileInputFormat: Total input files to process : 1
+2024-09-03 10:20:03,254 INFO mapreduce.JobSubmitter: number of splits:1
+2024-09-03 10:20:04,480 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1725371032384_0002
+2024-09-03 10:20:04,480 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-09-03 10:20:04,696 INFO impl.YarnClientImpl: Submitted application application_1725371032384_0002
+2024-09-03 10:20:04,700 INFO mapreduce.Job: The url to track the job: http://Sathvik.:8088/proxy/application_1725371032384_0002/
+2024-09-03 10:20:04,700 INFO mapreduce.Job: Running job: job_1725371032384_0002
+2024-09-03 10:20:10,753 INFO mapreduce.Job: Job job_1725371032384_0002 running in uber mode : false
+2024-09-03 10:20:10,753 INFO mapreduce.Job:  map 0% reduce 0%
+2024-09-03 10:20:13,770 INFO mapreduce.Job:  map 100% reduce 0%
+2024-09-03 10:20:18,799 INFO mapreduce.Job:  map 100% reduce 100%
+2024-09-03 10:20:22,822 INFO mapreduce.Job: Job job_1725371032384_0002 completed successfully
+2024-09-03 10:20:22,842 INFO mapreduce.Job: Counters: 54
+        File System Counters
+                FILE: Number of bytes read=1743235
+                FILE: Number of bytes written=4103941
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=1315778
+                HDFS: Number of bytes written=1315657
+                HDFS: Number of read operations=8
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Data-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=1480
+                Total time spent by all reduces in occupied slots (ms)=2671
+                Total time spent by all map tasks (ms)=1480
+                Total time spent by all reduce tasks (ms)=2671
+                Total vcore-milliseconds taken by all map tasks=1480
+                Total vcore-milliseconds taken by all reduce tasks=2671
+                Total megabyte-milliseconds taken by all map tasks=1515520
+                Total megabyte-milliseconds taken by all reduce tasks=2735104
+        Map-Reduce Framework
+                Map input records=113474
+                Map output records=113474
+                Map output bytes=1516281
+                Map output materialized bytes=1743235
+                Input split bytes=121
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=1286
+                Reduce shuffle bytes=1743235
+                Reduce input records=113474
+                Reduce output records=113474
+                Spilled Records=226948
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=150
+                CPU time spent (ms)=2730
+                Physical memory (bytes) snapshot=855744512
+                Virtual memory (bytes) snapshot=5188956160
+                Total committed heap usage (bytes)=795344896
+                Peak Map Physical memory (bytes)=566755328
+                Peak Map Virtual memory (bytes)=2590875648
+                Peak Reduce Physical memory (bytes)=288989184
+                Peak Reduce Virtual memory (bytes)=2598080512
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=1315657
+        File Output Format Counters
+                Bytes Written=1315657
+
+
+
+
+
+
+satkp@Sathvik:~/BigData/Programs/wordcount/prog_2$ ./runme
+WARNING: Use of this script to execute dfs is deprecated.
+WARNING: Attempting to execute replacement "hdfs dfs" instead.
+
+rm: `/output/WordCount/temp': No such file or directory
+rm: `/output/WordCount/Shake': No such file or directory
+WARNING: Use of this script to execute dfs is deprecated.
+WARNING: Attempting to execute replacement "hdfs dfs" instead.
+
+Deleted /output/gutenberg/output
+Deleted /output/gutenberg/temp
+
+args[1] = /input/project_gutenberg/books_v1_100, args[2] =  /output/gutenberg/temp, args[3] = /output/gutenberg/output/
+
+2024-09-03 11:42:38,282 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-09-03 11:42:38,507 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-09-03 11:42:38,522 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/satkp/.staging/job_1725371032384_0011
+2024-09-03 11:42:39,907 INFO input.FileInputFormat: Total input files to process : 100
+2024-09-03 11:42:41,563 INFO mapreduce.JobSubmitter: number of splits:100
+2024-09-03 11:42:42,842 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1725371032384_0011
+2024-09-03 11:42:42,842 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-09-03 11:42:42,947 INFO conf.Configuration: resource-types.xml not found
+2024-09-03 11:42:42,947 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-09-03 11:42:42,991 INFO impl.YarnClientImpl: Submitted application application_1725371032384_0011
+2024-09-03 11:42:43,015 INFO mapreduce.Job: The url to track the job: http://Sathvik.:8088/proxy/application_1725371032384_0011/
+2024-09-03 11:42:43,015 INFO mapreduce.Job: Running job: job_1725371032384_0011
+2024-09-03 11:42:48,085 INFO mapreduce.Job: Job job_1725371032384_0011 running in uber mode : false
+2024-09-03 11:42:48,086 INFO mapreduce.Job:  map 0% reduce 0%
+2024-09-03 11:42:53,153 INFO mapreduce.Job:  map 6% reduce 0%
+2024-09-03 11:42:57,180 INFO mapreduce.Job:  map 12% reduce 0%
+2024-09-03 11:43:01,202 INFO mapreduce.Job:  map 18% reduce 0%
+2024-09-03 11:43:04,243 INFO mapreduce.Job:  map 19% reduce 0%
+2024-09-03 11:43:05,249 INFO mapreduce.Job:  map 24% reduce 0%
+2024-09-03 11:43:08,274 INFO mapreduce.Job:  map 29% reduce 0%
+2024-09-03 11:43:12,292 INFO mapreduce.Job:  map 34% reduce 0%
+2024-09-03 11:43:15,306 INFO mapreduce.Job:  map 39% reduce 0%
+2024-09-03 11:43:18,320 INFO mapreduce.Job:  map 43% reduce 0%
+2024-09-03 11:43:20,330 INFO mapreduce.Job:  map 43% reduce 5%
+2024-09-03 11:43:21,334 INFO mapreduce.Job:  map 47% reduce 5%
+2024-09-03 11:43:24,347 INFO mapreduce.Job:  map 51% reduce 5%
+2024-09-03 11:43:26,358 INFO mapreduce.Job:  map 51% reduce 6%
+2024-09-03 11:43:27,362 INFO mapreduce.Job:  map 55% reduce 6%
+2024-09-03 11:43:29,373 INFO mapreduce.Job:  map 55% reduce 12%
+2024-09-03 11:43:30,379 INFO mapreduce.Job:  map 58% reduce 12%
+2024-09-03 11:43:32,388 INFO mapreduce.Job:  map 58% reduce 13%
+2024-09-03 11:43:33,392 INFO mapreduce.Job:  map 61% reduce 13%
+2024-09-03 11:43:36,410 INFO mapreduce.Job:  map 64% reduce 13%
+2024-09-03 11:43:38,419 INFO mapreduce.Job:  map 64% reduce 14%
+2024-09-03 11:43:39,423 INFO mapreduce.Job:  map 67% reduce 14%
+2024-09-03 11:43:41,432 INFO mapreduce.Job:  map 68% reduce 15%
+2024-09-03 11:43:42,436 INFO mapreduce.Job:  map 70% reduce 22%
+2024-09-03 11:43:44,446 INFO mapreduce.Job:  map 70% reduce 23%
+2024-09-03 11:43:45,449 INFO mapreduce.Job:  map 73% reduce 23%
+2024-09-03 11:43:48,462 INFO mapreduce.Job:  map 76% reduce 24%
+2024-09-03 11:43:50,471 INFO mapreduce.Job:  map 76% reduce 25%
+2024-09-03 11:43:51,479 INFO mapreduce.Job:  map 79% reduce 25%
+2024-09-03 11:43:54,495 INFO mapreduce.Job:  map 82% reduce 26%
+2024-09-03 11:43:55,498 INFO mapreduce.Job:  map 82% reduce 27%
+2024-09-03 11:43:56,508 INFO mapreduce.Job:  map 83% reduce 27%
+2024-09-03 11:43:57,512 INFO mapreduce.Job:  map 85% reduce 27%
+2024-09-03 11:43:59,520 INFO mapreduce.Job:  map 88% reduce 27%
+2024-09-03 11:44:00,522 INFO mapreduce.Job:  map 88% reduce 28%
+2024-09-03 11:44:01,526 INFO mapreduce.Job:  map 88% reduce 29%
+2024-09-03 11:44:02,531 INFO mapreduce.Job:  map 90% reduce 29%
+2024-09-03 11:44:03,538 INFO mapreduce.Job:  map 91% reduce 29%
+2024-09-03 11:44:05,545 INFO mapreduce.Job:  map 94% reduce 29%
+2024-09-03 11:44:06,549 INFO mapreduce.Job:  map 94% reduce 30%
+2024-09-03 11:44:07,552 INFO mapreduce.Job:  map 94% reduce 31%
+2024-09-03 11:44:08,556 INFO mapreduce.Job:  map 97% reduce 31%
+2024-09-03 11:44:11,567 INFO mapreduce.Job:  map 100% reduce 31%
+2024-09-03 11:44:12,569 INFO mapreduce.Job:  map 100% reduce 32%
+2024-09-03 11:44:13,573 INFO mapreduce.Job:  map 100% reduce 77%
+2024-09-03 11:44:14,576 INFO mapreduce.Job:  map 100% reduce 100%
+2024-09-03 11:44:18,594 INFO mapreduce.Job: Job job_1725371032384_0011 completed successfully
+2024-09-03 11:44:18,652 INFO mapreduce.Job: Counters: 55
+        File System Counters
+                FILE: Number of bytes read=9024660
+                FILE: Number of bytes written=49858416
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=32654859
+                HDFS: Number of bytes written=1315657
+                HDFS: Number of read operations=315
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=6
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters
+                Killed reduce tasks=1
+                Launched map tasks=100
+                Launched reduce tasks=3
+                Data-local map tasks=100
+                Total time spent by all maps in occupied slots (ms)=232883
+                Total time spent by all reduces in occupied slots (ms)=171745
+                Total time spent by all map tasks (ms)=232883
+                Total time spent by all reduce tasks (ms)=171745
+                Total vcore-milliseconds taken by all map tasks=232883
+                Total vcore-milliseconds taken by all reduce tasks=171745
+                Total megabyte-milliseconds taken by all map tasks=238472192
+                Total megabyte-milliseconds taken by all reduce tasks=175866880
+        Map-Reduce Framework
+                Map input records=641966
+                Map output records=5481372
+                Map output bytes=51729934
+                Map output materialized bytes=9026442
+                Input split bytes=13440
+                Combine input records=5481372
+                Combine output records=638079
+                Reduce input groups=113474
+                Reduce shuffle bytes=9026442
+                Reduce input records=638079
+                Reduce output records=113474
+                Spilled Records=1276158
+                Shuffled Maps =300
+                Failed Shuffles=0
+                Merged Map outputs=300
+                GC time elapsed (ms)=12420
+                CPU time spent (ms)=183810
+                Physical memory (bytes) snapshot=42503987200
+                Virtual memory (bytes) snapshot=267362934784
+                Total committed heap usage (bytes)=37608751104
+                Peak Map Physical memory (bytes)=532537344
+                Peak Map Virtual memory (bytes)=2608812032
+                Peak Reduce Physical memory (bytes)=314322944
+                Peak Reduce Virtual memory (bytes)=2612498432
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=32641419
+        File Output Format Counters
+                Bytes Written=1315657
+2024-09-03 11:44:18,673 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-09-03 11:44:18,714 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-09-03 11:44:18,719 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/satkp/.staging/job_1725371032384_0012
+2024-09-03 11:44:19,948 INFO input.FileInputFormat: Total input files to process : 3
+2024-09-03 11:44:21,588 INFO mapreduce.JobSubmitter: number of splits:3
+2024-09-03 11:44:22,840 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1725371032384_0012
+2024-09-03 11:44:22,840 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-09-03 11:44:22,861 INFO impl.YarnClientImpl: Submitted application application_1725371032384_0012
+2024-09-03 11:44:22,865 INFO mapreduce.Job: The url to track the job: http://Sathvik.:8088/proxy/application_1725371032384_0012/
+2024-09-03 11:44:22,865 INFO mapreduce.Job: Running job: job_1725371032384_0012
+2024-09-03 11:44:27,928 INFO mapreduce.Job: Job job_1725371032384_0012 running in uber mode : false
+2024-09-03 11:44:27,928 INFO mapreduce.Job:  map 0% reduce 0%
+2024-09-03 11:44:31,988 INFO mapreduce.Job:  map 100% reduce 0%
+2024-09-03 11:44:36,004 INFO mapreduce.Job:  map 100% reduce 33%
+2024-09-03 11:44:37,008 INFO mapreduce.Job:  map 100% reduce 67%
+2024-09-03 11:44:38,012 INFO mapreduce.Job:  map 100% reduce 100%
+2024-09-03 11:44:42,032 INFO mapreduce.Job: Job job_1725371032384_0012 completed successfully
+2024-09-03 11:44:42,051 INFO mapreduce.Job: Counters: 55
+        File System Counters
+                FILE: Number of bytes read=1743247
+                FILE: Number of bytes written=5339075
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=1316020
+                HDFS: Number of bytes written=1315657
+                HDFS: Number of read operations=24
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=6
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters
+                Killed reduce tasks=1
+                Launched map tasks=3
+                Launched reduce tasks=3
+                Data-local map tasks=3
+                Total time spent by all maps in occupied slots (ms)=5509
+                Total time spent by all reduces in occupied slots (ms)=5605
+                Total time spent by all map tasks (ms)=5509
+                Total time spent by all reduce tasks (ms)=5605
+                Total vcore-milliseconds taken by all map tasks=5509
+                Total vcore-milliseconds taken by all reduce tasks=5605
+                Total megabyte-milliseconds taken by all map tasks=5641216
+                Total megabyte-milliseconds taken by all reduce tasks=5739520
+        Map-Reduce Framework
+                Map input records=113474
+                Map output records=113474
+                Map output bytes=1516281
+                Map output materialized bytes=1743283
+                Input split bytes=363
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=1286
+                Reduce shuffle bytes=1743283
+                Reduce input records=113474
+                Reduce output records=113474
+                Spilled Records=226948
+                Shuffled Maps =9
+                Failed Shuffles=0
+                Merged Map outputs=9
+                GC time elapsed (ms)=605
+                CPU time spent (ms)=8140
+                Physical memory (bytes) snapshot=2297348096
+                Virtual memory (bytes) snapshot=15573741568
+                Total committed heap usage (bytes)=2166358016
+                Peak Map Physical memory (bytes)=490123264
+                Peak Map Virtual memory (bytes)=2591981568
+                Peak Reduce Physical memory (bytes)=283688960
+                Peak Reduce Virtual memory (bytes)=2602328064
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=1315657
+        File Output Format Counters
+                Bytes Written=1315657
+
+
+
+satkp@Sathvik:~/BigData/Programs/wordcount/prog_2$ ./runme
+WARNING: Use of this script to execute dfs is deprecated.
+WARNING: Attempting to execute replacement "hdfs dfs" instead.
+
+rm: `/output/WordCount/temp': No such file or directory
+rm: `/output/WordCount/Shake': No such file or directory
+WARNING: Use of this script to execute dfs is deprecated.
+WARNING: Attempting to execute replacement "hdfs dfs" instead.
+
+Deleted /output/gutenberg/output
+Deleted /output/gutenberg/temp
+
+args[1] = /input/project_gutenberg/books_v1_100, args[2] =  /output/gutenberg/temp, args[3] = /output/gutenberg/output/
+
+2024-09-03 11:47:32,739 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-09-03 11:47:32,977 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-09-03 11:47:32,992 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/satkp/.staging/job_1725371032384_0013
+2024-09-03 11:47:34,387 INFO input.FileInputFormat: Total input files to process : 100
+2024-09-03 11:47:36,041 INFO mapreduce.JobSubmitter: number of splits:100
+2024-09-03 11:47:37,317 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1725371032384_0013
+2024-09-03 11:47:37,317 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-09-03 11:47:37,426 INFO conf.Configuration: resource-types.xml not found
+2024-09-03 11:47:37,426 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-09-03 11:47:37,477 INFO impl.YarnClientImpl: Submitted application application_1725371032384_0013
+2024-09-03 11:47:37,505 INFO mapreduce.Job: The url to track the job: http://Sathvik.:8088/proxy/application_1725371032384_0013/
+2024-09-03 11:47:37,506 INFO mapreduce.Job: Running job: job_1725371032384_0013
+2024-09-03 11:47:41,563 INFO mapreduce.Job: Job job_1725371032384_0013 running in uber mode : false
+2024-09-03 11:47:41,564 INFO mapreduce.Job:  map 0% reduce 0%
+2024-09-03 11:47:46,622 INFO mapreduce.Job:  map 6% reduce 0%
+2024-09-03 11:47:50,661 INFO mapreduce.Job:  map 12% reduce 0%
+2024-09-03 11:47:54,703 INFO mapreduce.Job:  map 18% reduce 0%
+2024-09-03 11:47:58,731 INFO mapreduce.Job:  map 24% reduce 0%
+2024-09-03 11:48:02,766 INFO mapreduce.Job:  map 29% reduce 0%
+2024-09-03 11:48:05,782 INFO mapreduce.Job:  map 34% reduce 0%
+2024-09-03 11:48:08,813 INFO mapreduce.Job:  map 39% reduce 0%
+2024-09-03 11:48:11,829 INFO mapreduce.Job:  map 41% reduce 0%
+2024-09-03 11:48:12,833 INFO mapreduce.Job:  map 43% reduce 0%
+2024-09-03 11:48:13,839 INFO mapreduce.Job:  map 44% reduce 3%
+2024-09-03 11:48:15,851 INFO mapreduce.Job:  map 47% reduce 3%
+2024-09-03 11:48:16,858 INFO mapreduce.Job:  map 48% reduce 3%
+2024-09-03 11:48:18,868 INFO mapreduce.Job:  map 50% reduce 3%
+2024-09-03 11:48:19,875 INFO mapreduce.Job:  map 52% reduce 3%
+2024-09-03 11:48:21,888 INFO mapreduce.Job:  map 54% reduce 3%
+2024-09-03 11:48:22,896 INFO mapreduce.Job:  map 56% reduce 3%
+2024-09-03 11:48:23,907 INFO mapreduce.Job:  map 56% reduce 7%
+2024-09-03 11:48:24,911 INFO mapreduce.Job:  map 57% reduce 7%
+2024-09-03 11:48:25,916 INFO mapreduce.Job:  map 59% reduce 7%
+2024-09-03 11:48:27,929 INFO mapreduce.Job:  map 60% reduce 7%
+2024-09-03 11:48:28,932 INFO mapreduce.Job:  map 62% reduce 7%
+2024-09-03 11:48:29,938 INFO mapreduce.Job:  map 63% reduce 8%
+2024-09-03 11:48:31,949 INFO mapreduce.Job:  map 65% reduce 8%
+2024-09-03 11:48:32,961 INFO mapreduce.Job:  map 66% reduce 8%
+2024-09-03 11:48:34,971 INFO mapreduce.Job:  map 68% reduce 8%
+2024-09-03 11:48:35,975 INFO mapreduce.Job:  map 69% reduce 9%
+2024-09-03 11:48:36,982 INFO mapreduce.Job:  map 70% reduce 13%
+2024-09-03 11:48:37,987 INFO mapreduce.Job:  map 72% reduce 14%
+2024-09-03 11:48:39,995 INFO mapreduce.Job:  map 74% reduce 14%
+2024-09-03 11:48:40,999 INFO mapreduce.Job:  map 75% reduce 14%
+2024-09-03 11:48:43,008 INFO mapreduce.Job:  map 77% reduce 15%
+2024-09-03 11:48:45,016 INFO mapreduce.Job:  map 79% reduce 15%
+2024-09-03 11:48:46,020 INFO mapreduce.Job:  map 80% reduce 15%
+2024-09-03 11:48:47,027 INFO mapreduce.Job:  map 81% reduce 15%
+2024-09-03 11:48:49,034 INFO mapreduce.Job:  map 83% reduce 16%
+2024-09-03 11:48:50,039 INFO mapreduce.Job:  map 84% reduce 16%
+2024-09-03 11:48:52,049 INFO mapreduce.Job:  map 86% reduce 16%
+2024-09-03 11:48:53,052 INFO mapreduce.Job:  map 87% reduce 16%
+2024-09-03 11:48:54,057 INFO mapreduce.Job:  map 89% reduce 17%
+2024-09-03 11:48:55,060 INFO mapreduce.Job:  map 90% reduce 17%
+2024-09-03 11:48:56,064 INFO mapreduce.Job:  map 90% reduce 18%
+2024-09-03 11:48:57,067 INFO mapreduce.Job:  map 92% reduce 18%
+2024-09-03 11:48:58,071 INFO mapreduce.Job:  map 93% reduce 18%
+2024-09-03 11:48:59,074 INFO mapreduce.Job:  map 94% reduce 18%
+2024-09-03 11:49:00,079 INFO mapreduce.Job:  map 95% reduce 18%
+2024-09-03 11:49:01,083 INFO mapreduce.Job:  map 96% reduce 18%
+2024-09-03 11:49:02,089 INFO mapreduce.Job:  map 96% reduce 19%
+2024-09-03 11:49:03,093 INFO mapreduce.Job:  map 98% reduce 19%
+2024-09-03 11:49:04,096 INFO mapreduce.Job:  map 99% reduce 19%
+2024-09-03 11:49:05,100 INFO mapreduce.Job:  map 100% reduce 19%
+2024-09-03 11:49:06,104 INFO mapreduce.Job:  map 100% reduce 33%
+2024-09-03 11:49:07,109 INFO mapreduce.Job:  map 100% reduce 60%
+2024-09-03 11:49:09,116 INFO mapreduce.Job:  map 100% reduce 100%
+2024-09-03 11:49:13,134 INFO mapreduce.Job: Job job_1725371032384_0013 completed successfully
+2024-09-03 11:49:13,191 INFO mapreduce.Job: Counters: 55
+        File System Counters
+                FILE: Number of bytes read=9024672
+                FILE: Number of bytes written=50481844
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=32654859
+                HDFS: Number of bytes written=1315657
+                HDFS: Number of read operations=325
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=10
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters
+                Killed reduce tasks=1
+                Launched map tasks=100
+                Launched reduce tasks=5
+                Data-local map tasks=100
+                Total time spent by all maps in occupied slots (ms)=227880
+                Total time spent by all reduces in occupied slots (ms)=176064
+                Total time spent by all map tasks (ms)=227880
+                Total time spent by all reduce tasks (ms)=176064
+                Total vcore-milliseconds taken by all map tasks=227880
+                Total vcore-milliseconds taken by all reduce tasks=176064
+                Total megabyte-milliseconds taken by all map tasks=233349120
+                Total megabyte-milliseconds taken by all reduce tasks=180289536
+        Map-Reduce Framework
+                Map input records=641966
+                Map output records=5481372
+                Map output bytes=51729934
+                Map output materialized bytes=9027642
+                Input split bytes=13440
+                Combine input records=5481372
+                Combine output records=638079
+                Reduce input groups=113474
+                Reduce shuffle bytes=9027642
+                Reduce input records=638079
+                Reduce output records=113474
+                Spilled Records=1276158
+                Shuffled Maps =500
+                Failed Shuffles=0
+                Merged Map outputs=500
+                GC time elapsed (ms)=13220
+                CPU time spent (ms)=195160
+                Physical memory (bytes) snapshot=45416710144
+                Virtual memory (bytes) snapshot=272658137088
+                Total committed heap usage (bytes)=41410887680
+                Peak Map Physical memory (bytes)=528166912
+                Peak Map Virtual memory (bytes)=2605527040
+                Peak Reduce Physical memory (bytes)=318443520
+                Peak Reduce Virtual memory (bytes)=2625142784
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=32641419
+        File Output Format Counters
+                Bytes Written=1315657
+2024-09-03 11:49:13,212 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-09-03 11:49:13,252 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-09-03 11:49:13,259 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/satkp/.staging/job_1725371032384_0014
+2024-09-03 11:49:14,484 INFO input.FileInputFormat: Total input files to process : 5
+2024-09-03 11:49:16,928 INFO mapreduce.JobSubmitter: number of splits:5
+2024-09-03 11:49:17,371 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1725371032384_0014
+2024-09-03 11:49:17,371 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-09-03 11:49:17,392 INFO impl.YarnClientImpl: Submitted application application_1725371032384_0014
+2024-09-03 11:49:17,394 INFO mapreduce.Job: The url to track the job: http://Sathvik.:8088/proxy/application_1725371032384_0014/
+2024-09-03 11:49:17,394 INFO mapreduce.Job: Running job: job_1725371032384_0014
+2024-09-03 11:49:23,441 INFO mapreduce.Job: Job job_1725371032384_0014 running in uber mode : false
+2024-09-03 11:49:23,441 INFO mapreduce.Job:  map 0% reduce 0%
+2024-09-03 11:49:27,468 INFO mapreduce.Job:  map 100% reduce 0%
+2024-09-03 11:49:32,491 INFO mapreduce.Job:  map 100% reduce 20%
+2024-09-03 11:49:33,494 INFO mapreduce.Job:  map 100% reduce 40%
+2024-09-03 11:49:34,498 INFO mapreduce.Job:  map 100% reduce 60%
+2024-09-03 11:49:35,509 INFO mapreduce.Job:  map 100% reduce 80%
+2024-09-03 11:49:36,512 INFO mapreduce.Job:  map 100% reduce 100%
+2024-09-03 11:49:40,534 INFO mapreduce.Job: Job job_1725371032384_0014 completed successfully
+2024-09-03 11:49:40,552 INFO mapreduce.Job: Counters: 55
+        File System Counters
+                FILE: Number of bytes read=1743259
+                FILE: Number of bytes written=6574453
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=1316262
+                HDFS: Number of bytes written=1315657
+                HDFS: Number of read operations=40
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=10
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters
+                Killed reduce tasks=1
+                Launched map tasks=5
+                Launched reduce tasks=5
+                Data-local map tasks=5
+                Total time spent by all maps in occupied slots (ms)=11653
+                Total time spent by all reduces in occupied slots (ms)=9384
+                Total time spent by all map tasks (ms)=11653
+                Total time spent by all reduce tasks (ms)=9384
+                Total vcore-milliseconds taken by all map tasks=11653
+                Total vcore-milliseconds taken by all reduce tasks=9384
+                Total megabyte-milliseconds taken by all map tasks=11932672
+                Total megabyte-milliseconds taken by all reduce tasks=9609216
+        Map-Reduce Framework
+                Map input records=113474
+                Map output records=113474
+                Map output bytes=1516281
+                Map output materialized bytes=1743379
+                Input split bytes=605
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=1286
+                Reduce shuffle bytes=1743379
+                Reduce input records=113474
+                Reduce output records=113474
+                Spilled Records=226948
+                Shuffled Maps =25
+                Failed Shuffles=0
+                Merged Map outputs=25
+                GC time elapsed (ms)=1312
+                CPU time spent (ms)=11990
+                Physical memory (bytes) snapshot=3484344320
+                Virtual memory (bytes) snapshot=25948626944
+                Total committed heap usage (bytes)=3097493504
+                Peak Map Physical memory (bytes)=489709568
+                Peak Map Virtual memory (bytes)=2592202752
+                Peak Reduce Physical memory (bytes)=280399872
+                Peak Reduce Virtual memory (bytes)=2601906176
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=1315657
+        File Output Format Counters
+                Bytes Written=1315657

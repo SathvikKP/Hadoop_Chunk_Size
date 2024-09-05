@@ -1,0 +1,147 @@
+REGULAR WORDCOUNT AND SORTING
+
+Document Contents:
+doc1: apple banana banana orange lemon
+doc2: banana banana orange lemon
+doc3: apple banana orange orange lemon
+doc4: banana orange
+
+Phase 1: Word Count
+
+Phase 1 Mapper Output:
+
+apple 1
+banana 1
+banana 1
+orange 1
+lemon 1
+
+banana 1
+banana 1
+orange 1
+lemon 1
+
+apple 1
+banana 1
+orange 1
+orange 1
+lemon 1
+
+banana 1
+orange 1
+
+Phase 1 Reducer Output:
+
+apple 2
+banana 6
+orange 4
+lemon 3
+
+
+Phase 2: Sorting
+
+Phase 2 Mapper Output:
+
+Copy code
+2 apple
+6 banana
+4 orange
+3 lemon
+
+Phase 2 Reducer Output:
+
+banana 6
+orange 4
+lemon 3
+apple 2
+
+
+
+INVERTED INDEX METHOD EXAMPLE
+
+
+
+Example Input Data
+Document Contents:
+doc1: apple banana banana orange lemon
+doc2: banana banana orange lemon
+doc3: apple banana orange orange lemon
+doc4: banana orange
+
+Phase 1: Inverted Index
+
+Phase 1 Mapper Output:
+
+apple doc1
+banana doc1
+banana doc1
+orange doc1
+lemon doc1
+
+banana doc2
+banana doc2
+orange doc2
+lemon doc2
+
+apple doc3
+banana doc3
+orange doc3
+orange doc3
+lemon doc3
+
+banana doc4
+orange doc4
+
+Phase 1 Reducer Output:
+
+apple doc1 doc3
+banana doc1 doc1 doc2 doc2 doc3 doc4
+orange doc1 doc2 doc3 doc3 doc4
+lemon doc1 doc2 doc3
+
+
+Phase 2: Frequency Count
+
+Phase 2 Mapper Output:
+
+apple 1
+apple 1
+
+banana 1
+banana 1
+banana 1
+banana 1
+banana 1
+banana 1
+
+orange 1
+orange 1
+orange 1
+orange 1
+
+lemon 1
+lemon 1
+lemon 1
+
+Phase 2 Reducer Output:
+
+apple 2
+banana 6
+orange 4
+lemon 3
+
+
+Phase 3: Sorting
+
+Phase 3 Mapper Output:
+
+2 apple
+6 banana
+4 orange
+3 lemon
+
+Phase 3 Reducer Output:
+banana 6
+orange 4
+lemon 3
+apple 2
