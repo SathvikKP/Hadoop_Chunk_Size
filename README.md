@@ -1,5 +1,7 @@
 # hadoop_wordcount_final
 
+# PLEASE READ THE "P1.Karatattu Padmanabha Sathvik.COMPLETE_REPORT.pdf" file
+
 # Environment Information
 
 To run successfully, make sure the environment variables and hadoop settings such as core-site.xml, mapred.xml are properly set. I used Windows Subsystem for Linux and installed Ubuntu 22.04.4 LTS.
