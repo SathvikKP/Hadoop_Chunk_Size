@@ -12,61 +12,57 @@ https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-
 ```
 I used the eclipse IDE and used the maven build tool for compiling and packaging
 
-# Note on Dataset used
+# Dataset description
 
 I used plain text files from project gutenberg (https://www.gutenberg.org/). 
 
-To get a large number of files, I used a helper script to automate downloads(auxillary_scripts/downloader.py) (Reference : https://cognitivedemons.wordpress.com/2017/07/10/downloading-all-english-books-from-gutenberg-org-with-python/). 
+To get a large number of files, I used a helper script to automate downloads(dataset_preparation_scripts/downloader.py) (Reference : https://cognitivedemons.wordpress.com/2017/07/10/downloading-all-english-books-from-gutenberg-org-with-python/). 
 
-I split the downloaded files into different directories using bash scripts (auxillary_scripts/*.sh)
-
-Then, I moved them into the hdfs file system using hdfs commands
-```
-hdfs dfs -put books_v1 /input/project_gutenberg/books_v1 
-```
+I split the downloaded files into different directories using bash scripts (dataset_preparation_scripts/*.sh)
 
 ## Overview of data set preparation scripts 
 - downloader.py : Downloads large number of text files
 - splitter_*.sh : Splits files into groups to upload to hdfs (like 10 files, 100 files, 300 files, 600 files)
-- repopulate.sh : Uploads files to the hdfs file system
+- repopulate.sh : Uploads files to the hdfs file system. 
 
 # Main scripts
 
 ```bash
 run_inbuild_example_wordcount.sh
 ```
-• A shell script to run the built-in Hadoop wordcount example.
-• Simply execute the script in your terminal (ensure your Hadoop environment is configured).
-• This will store logs in the logs directory
+- A shell script to run the built-in Hadoop wordcount example.
+- Simply execute the script in your terminal (ensure your Hadoop environment is configured).
+- This will store logs in the logs directory
 
 ```bash
 run_inbuild_example_grep.sh
 ```
-• A shell script to run the built-in Hadoop grep example.
-•  Run this script from your Linux terminal after verifying that Hadoop is properly set up
-• This will store logs in the logs directory
+- A shell script to run the built-in Hadoop grep example.
+- Run this script from your Linux terminal after verifying that Hadoop is properly set up
+- This will store logs in the logs directory
 
-# logs Directory
-• Contains logs generated during Hadoop job executions.
-• Check this directory for execution details, errors, and performance messages.
+# Directory Information
+## logs Directory
+- Contains logs generated during Hadoop job executions.
+- Check this directory for execution details, errors, and performance messages.
 
-# stat_analyzer.py
-• A Python script for analyzing and summarizing performance metrics from Hadoop jobs.
-• It processes data from the stats.txt file and outputs analysis reports.
+## stat_analyzer.py
+- A Python script for analyzing and summarizing performance metrics from Hadoop jobs.
+- It processes data from the stats.txt file and outputs analysis reports.
 
-# stats.txt
-• A text file containing detailed performance metrics and system usage statistics from your Hadoop jobs.
-• Review this file to understand memory, network, CPU, and disk performance during job runs.
+## stats.txt
+- A text file containing detailed performance metrics and system usage statistics from your Hadoop jobs.
+- Review this file to understand memory, network, CPU, and disk performance during job runs.
 
-# hadoop_graphs
-• A directory containing graphs that visualize performance trends based on the data in stats.txt. 
+## hadoop_graphs
+- A directory containing graphs that visualize performance trends based on the data in stats.txt. 
 
 # Execution and Analysis Workflow
 - Run the wordcount and grep examples using the provided shell scripts.
 - Monitor job execution by checking the logs directory.
 - Analyze performance using stat_analyzer.py, which reads and interprets the data in stats.txt.
 
-# Environment Settings
+# Changing Chunk Size
 To change the chunk size, edit the vi hdfs-site.xml file inside the $HADOOP_HOME/etc/hadoop location. Add the following property and vary it. Remember to restart everytime once you change theh property
 ```
     <property>
@@ -81,6 +77,8 @@ To change the chunk size, edit the vi hdfs-site.xml file inside the $HADOOP_HOME
     <!-- 512MB 536870912 -->
 ```
 # Extra Stuff Guide --> Finding Most Popular Words in the text files
+
+I have written hadoop mapreduce code to find most popular words. The two appraoches are present in approach1 and approach2 directories. To compile then, use maven build tool. 
 
 To run the program, use the following commands (change the input and output directories, note the number of temporary directories involved)
 ```
