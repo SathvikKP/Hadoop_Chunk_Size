@@ -1,6 +1,4 @@
-# hadoop_wordcount_final
 
-# PLEASE READ THE "P1.Karatattu Padmanabha Sathvik.COMPLETE_REPORT.pdf" file
 
 # Environment Information
 
@@ -28,7 +26,7 @@ hdfs dfs -put books_v1 /input/project_gutenberg/books_v1
 ```
 
 ## Overview of data set preparation scripts 
--  downloader.py : Downloads large number of text files
+- downloader.py : Downloads large number of text files
 - splitter_*.sh : Splits files into groups to upload to hdfs (like 10 files, 100 files, 300 files, 600 files)
 - repopulate.sh : Uploads files to the hdfs file system
 
