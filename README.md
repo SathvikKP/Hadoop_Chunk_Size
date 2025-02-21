@@ -65,3 +65,4 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
 export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 #export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
 ```
+# Hadoop_Chunk_Size
