@@ -6,7 +6,7 @@ echo "Start? Will delete old outputs ^C to exit"
 # Note to self --> I am saving exec times as file name for easy reference
 HADOOP_EXAMPLES_JAR="/usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.4.0.jar"
 PATTERN='Australia|Brazil|Canada|China|Egypt|France|Germany|India|Italy|Japan|Mexico|Russia|Spain|United States|England|Britain'
-EXEC_TS=$(date +%Y%m%d%H%M%S)  # Single timestamp for entire execution
+EXEC_TS=$(date +%Y%m%d%H%M%S) 
 BASE_DIR="logs/exec_${EXEC_TS}"
 mkdir -p $BASE_DIR
 

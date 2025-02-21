@@ -1,0 +1,504 @@
+
+Processing: logs/exec_4_MB_wordcount/10/metrics
+
+Summary Report:
+CPU Usage: User: 24.38%, System: 3.55%, IO Wait: 0.10%, Idle: 71.97%
+Disk Usage: TPS: 20.08, Read TPS: 5.48, Write TPS: 12.50
+Memory Usage: Avg Used Memory: 3900.77 MB
+Network Usage: RX: 136.50 KB/s, TX: 9141.24 KB/s
+User Time: 4.59
+System Time: 0.8
+Elapsed Time (s): 30.0
+Max Memory (MB): 386.44921875
+
+Processing: logs/exec_4_MB_wordcount/100/metrics
+
+Summary Report:
+CPU Usage: User: 50.74%, System: 6.37%, IO Wait: 0.02%, Idle: 42.87%
+Disk Usage: TPS: 14.60, Read TPS: 0.15, Write TPS: 9.08
+Memory Usage: Avg Used Memory: 4531.09 MB
+Network Usage: RX: 192.52 KB/s, TX: 9227.36 KB/s
+User Time: 5.69
+System Time: 0.73
+Elapsed Time (s): 119.0
+Max Memory (MB): 288.546875
+
+Processing: logs/exec_4_MB_wordcount/300/metrics
+
+Summary Report:
+CPU Usage: User: 55.66%, System: 6.87%, IO Wait: 0.02%, Idle: 37.45%
+Disk Usage: TPS: 16.50, Read TPS: 1.35, Write TPS: 9.59
+Memory Usage: Avg Used Memory: 4935.73 MB
+Network Usage: RX: 213.22 KB/s, TX: 8420.27 KB/s
+User Time: 7.08
+System Time: 1.25
+Elapsed Time (s): 325.14
+Max Memory (MB): 421.046875
+
+Processing: logs/exec_128_MB_grep_default/10/metrics
+
+Summary Report:
+CPU Usage: User: 15.37%, System: 2.85%, IO Wait: 0.10%, Idle: 81.68%
+Disk Usage: TPS: 47.28, Read TPS: 25.96, Write TPS: 19.36
+Memory Usage: Avg Used Memory: 4627.44 MB
+Network Usage: RX: 128.33 KB/s, TX: 5769.62 KB/s
+User Time: 5.33
+System Time: 0.84
+Elapsed Time (s): 52.16
+Max Memory (MB): 411.71875
+
+Processing: logs/exec_128_MB_grep_default/100/metrics
+
+Summary Report:
+CPU Usage: User: 37.86%, System: 5.22%, IO Wait: 0.09%, Idle: 56.83%
+Disk Usage: TPS: 48.35, Read TPS: 23.91, Write TPS: 18.85
+Memory Usage: Avg Used Memory: 5137.85 MB
+Network Usage: RX: 218.18 KB/s, TX: 5846.13 KB/s
+User Time: 5.49
+System Time: 0.9
+Elapsed Time (s): 122.27
+Max Memory (MB): 408.390625
+
+Processing: logs/exec_128_MB_grep_default/300/metrics
+
+Summary Report:
+CPU Usage: User: 46.22%, System: 6.45%, IO Wait: 0.12%, Idle: 47.21%
+Disk Usage: TPS: 56.72, Read TPS: 33.51, Write TPS: 16.96
+Memory Usage: Avg Used Memory: 5288.50 MB
+Network Usage: RX: 255.89 KB/s, TX: 6026.79 KB/s
+User Time: 6.61
+System Time: 1.25
+Elapsed Time (s): 292.44
+Max Memory (MB): 408.234375
+
+Processing: logs/exec_512_MB_wordcount/10/metrics
+
+Summary Report:
+CPU Usage: User: 21.50%, System: 3.32%, IO Wait: 0.07%, Idle: 75.11%
+Disk Usage: TPS: 42.19, Read TPS: 14.27, Write TPS: 25.31
+Memory Usage: Avg Used Memory: 3841.93 MB
+Network Usage: RX: 389.62 KB/s, TX: 15502.06 KB/s
+User Time: 4.13
+System Time: 0.58
+Elapsed Time (s): 26.88
+Max Memory (MB): 382.4140625
+
+Processing: logs/exec_512_MB_wordcount/100/metrics
+
+Summary Report:
+CPU Usage: User: 45.47%, System: 5.33%, IO Wait: 0.04%, Idle: 49.16%
+Disk Usage: TPS: 27.35, Read TPS: 5.51, Write TPS: 15.22
+Memory Usage: Avg Used Memory: 4629.83 MB
+Network Usage: RX: 236.77 KB/s, TX: 12381.35 KB/s
+User Time: 4.84
+System Time: 0.57
+Elapsed Time (s): 99.59
+Max Memory (MB): 388.4921875
+
+Processing: logs/exec_512_MB_wordcount/300/metrics
+
+Summary Report:
+CPU Usage: User: 51.30%, System: 5.86%, IO Wait: 0.02%, Idle: 42.82%
+Disk Usage: TPS: 21.65, Read TPS: 1.34, Write TPS: 12.85
+Memory Usage: Avg Used Memory: 4769.27 MB
+Network Usage: RX: 260.92 KB/s, TX: 12526.93 KB/s
+User Time: 5.76
+System Time: 1.12
+Elapsed Time (s): 263.14
+Max Memory (MB): 289.05078125
+
+Processing: logs/exec_128_MB_wordcount_default/10/metrics
+
+Summary Report:
+CPU Usage: User: 24.74%, System: 5.31%, IO Wait: 1.06%, Idle: 68.89%
+Disk Usage: TPS: 319.28, Read TPS: 151.11, Write TPS: 164.06
+Memory Usage: Avg Used Memory: 4973.73 MB
+Network Usage: RX: 1346.76 KB/s, TX: 1623.65 KB/s
+User Time: 4.35
+System Time: 0.62
+Elapsed Time (s): 27.47
+Max Memory (MB): 380.4765625
+
+Processing: logs/exec_128_MB_wordcount_default/100/metrics
+
+Summary Report:
+CPU Usage: User: 48.06%, System: 6.55%, IO Wait: 0.17%, Idle: 45.23%
+Disk Usage: TPS: 113.58, Read TPS: 94.77, Write TPS: 13.69
+Memory Usage: Avg Used Memory: 5251.82 MB
+Network Usage: RX: 343.41 KB/s, TX: 5198.16 KB/s
+User Time: 5.93
+System Time: 0.95
+Elapsed Time (s): 113.22
+Max Memory (MB): 415.9609375
+
+Processing: logs/exec_128_MB_wordcount_default/300/metrics
+
+Summary Report:
+CPU Usage: User: 54.98%, System: 7.39%, IO Wait: 0.08%, Idle: 37.56%
+Disk Usage: TPS: 41.32, Read TPS: 25.27, Write TPS: 10.64
+Memory Usage: Avg Used Memory: 5409.73 MB
+Network Usage: RX: 241.70 KB/s, TX: 5345.16 KB/s
+User Time: 8.28
+System Time: 1.19
+Elapsed Time (s): 315.9
+Max Memory (MB): 409.19140625
+
+Processing: logs/exec_256_MB_grep/10/metrics
+
+Summary Report:
+CPU Usage: User: 11.72%, System: 1.92%, IO Wait: 0.04%, Idle: 86.32%
+Disk Usage: TPS: 20.24, Read TPS: 1.14, Write TPS: 16.73
+Memory Usage: Avg Used Memory: 4187.94 MB
+Network Usage: RX: 132.40 KB/s, TX: 17516.48 KB/s
+User Time: 4.56
+System Time: 0.67
+Elapsed Time (s): 50.5
+Max Memory (MB): 398.38671875
+
+Processing: logs/exec_256_MB_grep/100/metrics
+
+Summary Report:
+CPU Usage: User: 34.16%, System: 4.58%, IO Wait: 0.03%, Idle: 61.23%
+Disk Usage: TPS: 24.14, Read TPS: 0.30, Write TPS: 16.72
+Memory Usage: Avg Used Memory: 4741.37 MB
+Network Usage: RX: 184.74 KB/s, TX: 17579.29 KB/s
+User Time: 5.21
+System Time: 0.8
+Elapsed Time (s): 115.18
+Max Memory (MB): 411.8046875
+
+Processing: logs/exec_256_MB_grep/300/metrics
+
+Summary Report:
+CPU Usage: User: 41.68%, System: 5.22%, IO Wait: 0.03%, Idle: 53.07%
+Disk Usage: TPS: 22.88, Read TPS: 3.23, Write TPS: 12.15
+Memory Usage: Avg Used Memory: 4954.12 MB
+Network Usage: RX: 206.70 KB/s, TX: 17574.81 KB/s
+User Time: 6.49
+System Time: 1.04
+Elapsed Time (s): 269.53
+Max Memory (MB): 422.50390625
+
+Processing: logs/exec_128_MB_wordcount/10/metrics
+
+Summary Report:
+CPU Usage: User: 22.00%, System: 3.18%, IO Wait: 0.04%, Idle: 74.77%
+Disk Usage: TPS: 19.95, Read TPS: 4.91, Write TPS: 12.92
+Memory Usage: Avg Used Memory: 3979.79 MB
+Network Usage: RX: 163.03 KB/s, TX: 9068.37 KB/s
+User Time: 4.25
+System Time: 0.7
+Elapsed Time (s): 29.46
+Max Memory (MB): 373.53125
+
+Processing: logs/exec_128_MB_wordcount/100/metrics
+
+Summary Report:
+CPU Usage: User: 48.72%, System: 6.33%, IO Wait: 0.07%, Idle: 44.88%
+Disk Usage: TPS: 56.58, Read TPS: 38.07, Write TPS: 12.82
+Memory Usage: Avg Used Memory: 4780.40 MB
+Network Usage: RX: 280.38 KB/s, TX: 9822.13 KB/s
+User Time: 5.29
+System Time: 0.66
+Elapsed Time (s): 108.22999999999999
+Max Memory (MB): 395.26953125
+
+Processing: logs/exec_128_MB_wordcount/300/metrics
+
+Summary Report:
+CPU Usage: User: 54.56%, System: 6.66%, IO Wait: 0.03%, Idle: 38.75%
+Disk Usage: TPS: 20.21, Read TPS: 3.63, Write TPS: 10.21
+Memory Usage: Avg Used Memory: 4873.18 MB
+Network Usage: RX: 234.69 KB/s, TX: 9335.36 KB/s
+User Time: 7.09
+System Time: 1.16
+Elapsed Time (s): 280.89
+Max Memory (MB): 307.078125
+
+Processing: logs/exec_512_MB_grep/10/metrics
+
+Summary Report:
+CPU Usage: User: 12.18%, System: 2.02%, IO Wait: 0.05%, Idle: 85.75%
+Disk Usage: TPS: 20.32, Read TPS: 0.36, Write TPS: 17.32
+Memory Usage: Avg Used Memory: 4112.59 MB
+Network Usage: RX: 160.68 KB/s, TX: 12499.03 KB/s
+User Time: 4.95
+System Time: 0.79
+Elapsed Time (s): 48.0
+Max Memory (MB): 399.71875
+
+Processing: logs/exec_512_MB_grep/100/metrics
+
+Summary Report:
+CPU Usage: User: 34.10%, System: 4.60%, IO Wait: 0.03%, Idle: 61.27%
+Disk Usage: TPS: 24.80, Read TPS: 1.76, Write TPS: 16.05
+Memory Usage: Avg Used Memory: 4555.89 MB
+Network Usage: RX: 204.04 KB/s, TX: 11595.90 KB/s
+User Time: 5.18
+System Time: 0.9
+Elapsed Time (s): 116.46000000000001
+Max Memory (MB): 397.12109375
+
+Processing: logs/exec_512_MB_grep/300/metrics
+
+Summary Report:
+CPU Usage: User: 43.41%, System: 5.45%, IO Wait: 0.04%, Idle: 51.09%
+Disk Usage: TPS: 32.25, Read TPS: 9.84, Write TPS: 14.64
+Memory Usage: Avg Used Memory: 4845.25 MB
+Network Usage: RX: 225.44 KB/s, TX: 9473.12 KB/s
+User Time: 6.41
+System Time: 1.12
+Elapsed Time (s): 271.2
+Max Memory (MB): 420.87109375
+
+Processing: logs/exec_256_MB_wordcount/10/metrics
+
+Summary Report:
+CPU Usage: User: 20.06%, System: 2.97%, IO Wait: 0.10%, Idle: 76.87%
+Disk Usage: TPS: 60.64, Read TPS: 36.36, Write TPS: 21.96
+Memory Usage: Avg Used Memory: 3934.26 MB
+Network Usage: RX: 183.22 KB/s, TX: 17561.95 KB/s
+User Time: 4.26
+System Time: 0.74
+Elapsed Time (s): 28.34
+Max Memory (MB): 403.55078125
+
+Processing: logs/exec_256_MB_wordcount/100/metrics
+
+Summary Report:
+CPU Usage: User: 46.99%, System: 5.50%, IO Wait: 0.03%, Idle: 47.47%
+Disk Usage: TPS: 29.95, Read TPS: 8.23, Write TPS: 15.07
+Memory Usage: Avg Used Memory: 4727.75 MB
+Network Usage: RX: 242.44 KB/s, TX: 17392.05 KB/s
+User Time: 4.84
+System Time: 0.59
+Elapsed Time (s): 95.28999999999999
+Max Memory (MB): 392.91015625
+
+Processing: logs/exec_256_MB_wordcount/300/metrics
+
+Summary Report:
+CPU Usage: User: 52.00%, System: 5.93%, IO Wait: 0.03%, Idle: 42.04%
+Disk Usage: TPS: 27.61, Read TPS: 7.31, Write TPS: 12.69
+Memory Usage: Avg Used Memory: 5045.63 MB
+Network Usage: RX: 283.45 KB/s, TX: 17879.25 KB/s
+User Time: 6.7
+System Time: 1.02
+Elapsed Time (s): 260.76
+Max Memory (MB): 450.796875
+
+Processing: logs/exec_16_MB_grep/10/metrics
+
+Summary Report:
+CPU Usage: User: 13.83%, System: 2.00%, IO Wait: 0.06%, Idle: 84.12%
+Disk Usage: TPS: 29.04, Read TPS: 10.38, Write TPS: 16.26
+Memory Usage: Avg Used Memory: 4215.48 MB
+Network Usage: RX: 132.38 KB/s, TX: 8217.84 KB/s
+User Time: 5.3
+System Time: 0.71
+Elapsed Time (s): 48.33
+Max Memory (MB): 288.00390625
+
+Processing: logs/exec_16_MB_grep/100/metrics
+
+Summary Report:
+CPU Usage: User: 38.38%, System: 5.38%, IO Wait: 0.04%, Idle: 56.19%
+Disk Usage: TPS: 30.77, Read TPS: 9.52, Write TPS: 14.99
+Memory Usage: Avg Used Memory: 4867.14 MB
+Network Usage: RX: 178.62 KB/s, TX: 7631.75 KB/s
+User Time: 5.9
+System Time: 0.95
+Elapsed Time (s): 131.08
+Max Memory (MB): 406.1328125
+
+Processing: logs/exec_16_MB_grep/300/metrics
+
+Summary Report:
+CPU Usage: User: 47.70%, System: 6.36%, IO Wait: 0.02%, Idle: 45.92%
+Disk Usage: TPS: 20.16, Read TPS: 1.88, Write TPS: 11.52
+Memory Usage: Avg Used Memory: 5101.55 MB
+Network Usage: RX: 184.36 KB/s, TX: 7840.50 KB/s
+User Time: 7.24
+System Time: 1.01
+Elapsed Time (s): 306.66
+Max Memory (MB): 412.34765625
+
+Processing: logs/exec_64_MB_wordcount/10/metrics
+
+Summary Report:
+CPU Usage: User: 24.73%, System: 3.43%, IO Wait: 0.04%, Idle: 71.80%
+Disk Usage: TPS: 20.93, Read TPS: 1.81, Write TPS: 16.78
+Memory Usage: Avg Used Memory: 4067.56 MB
+Network Usage: RX: 161.40 KB/s, TX: 8558.19 KB/s
+User Time: 4.69
+System Time: 0.6
+Elapsed Time (s): 26.22
+Max Memory (MB): 288.84765625
+
+Processing: logs/exec_64_MB_wordcount/100/metrics
+
+Summary Report:
+CPU Usage: User: 50.62%, System: 6.32%, IO Wait: 0.05%, Idle: 43.02%
+Disk Usage: TPS: 26.80, Read TPS: 7.43, Write TPS: 14.04
+Memory Usage: Avg Used Memory: 4816.99 MB
+Network Usage: RX: 220.30 KB/s, TX: 8652.08 KB/s
+User Time: 5.39
+System Time: 0.69
+Elapsed Time (s): 117.61
+Max Memory (MB): 392.80078125
+
+Processing: logs/exec_64_MB_wordcount/300/metrics
+
+Summary Report:
+CPU Usage: User: 54.10%, System: 6.02%, IO Wait: 0.02%, Idle: 39.86%
+Disk Usage: TPS: 19.26, Read TPS: 0.99, Write TPS: 11.73
+Memory Usage: Avg Used Memory: 4868.96 MB
+Network Usage: RX: 242.23 KB/s, TX: 9082.75 KB/s
+User Time: 6.82
+System Time: 1.16
+Elapsed Time (s): 266.77
+Max Memory (MB): 291.31640625
+
+Processing: logs/exec_16_MB_wordcount/10/metrics
+
+Summary Report:
+CPU Usage: User: 25.03%, System: 4.32%, IO Wait: 0.09%, Idle: 70.56%
+Disk Usage: TPS: 42.92, Read TPS: 20.46, Write TPS: 20.17
+Memory Usage: Avg Used Memory: 4164.00 MB
+Network Usage: RX: 260.04 KB/s, TX: 9008.59 KB/s
+User Time: 4.22
+System Time: 0.61
+Elapsed Time (s): 27.12
+Max Memory (MB): 377.125
+
+Processing: logs/exec_16_MB_wordcount/100/metrics
+
+Summary Report:
+CPU Usage: User: 49.44%, System: 6.37%, IO Wait: 0.03%, Idle: 44.15%
+Disk Usage: TPS: 23.33, Read TPS: 8.45, Write TPS: 9.90
+Memory Usage: Avg Used Memory: 4796.37 MB
+Network Usage: RX: 191.92 KB/s, TX: 8641.95 KB/s
+User Time: 5.83
+System Time: 0.8
+Elapsed Time (s): 120.95
+Max Memory (MB): 395.81640625
+
+Processing: logs/exec_16_MB_wordcount/300/metrics
+
+Summary Report:
+CPU Usage: User: 56.29%, System: 6.89%, IO Wait: 0.03%, Idle: 36.79%
+Disk Usage: TPS: 22.39, Read TPS: 4.77, Write TPS: 11.82
+Memory Usage: Avg Used Memory: 5134.07 MB
+Network Usage: RX: 234.32 KB/s, TX: 8139.53 KB/s
+User Time: 7.1
+System Time: 1.3
+Elapsed Time (s): 316.15
+Max Memory (MB): 446.1796875
+
+Processing: logs/exec_128_MB_grep/10/metrics
+
+Summary Report:
+CPU Usage: User: 13.56%, System: 2.11%, IO Wait: 0.06%, Idle: 84.26%
+Disk Usage: TPS: 31.03, Read TPS: 9.50, Write TPS: 19.03
+Memory Usage: Avg Used Memory: 4150.94 MB
+Network Usage: RX: 212.98 KB/s, TX: 8836.80 KB/s
+User Time: 4.77
+System Time: 0.69
+Elapsed Time (s): 46.83
+Max Memory (MB): 406.91796875
+
+Processing: logs/exec_128_MB_grep/100/metrics
+
+Summary Report:
+CPU Usage: User: 36.93%, System: 5.05%, IO Wait: 0.05%, Idle: 57.97%
+Disk Usage: TPS: 29.27, Read TPS: 9.10, Write TPS: 13.51
+Memory Usage: Avg Used Memory: 4707.81 MB
+Network Usage: RX: 203.84 KB/s, TX: 8776.78 KB/s
+User Time: 5.63
+System Time: 0.85
+Elapsed Time (s): 119.96000000000001
+Max Memory (MB): 418.2421875
+
+Processing: logs/exec_128_MB_grep/300/metrics
+
+Summary Report:
+CPU Usage: User: 46.34%, System: 6.16%, IO Wait: 0.04%, Idle: 47.46%
+Disk Usage: TPS: 26.88, Read TPS: 8.93, Write TPS: 11.83
+Memory Usage: Avg Used Memory: 4950.33 MB
+Network Usage: RX: 196.42 KB/s, TX: 8530.23 KB/s
+User Time: 7.15
+System Time: 0.9
+Elapsed Time (s): 294.83
+Max Memory (MB): 417.875
+
+Processing: logs/exec_64_MB_grep/10/metrics
+
+Summary Report:
+CPU Usage: User: 12.53%, System: 1.91%, IO Wait: 0.05%, Idle: 85.51%
+Disk Usage: TPS: 19.26, Read TPS: 0.37, Write TPS: 16.30
+Memory Usage: Avg Used Memory: 4005.13 MB
+Network Usage: RX: 129.87 KB/s, TX: 8379.31 KB/s
+User Time: 4.85
+System Time: 0.69
+Elapsed Time (s): 47.37
+Max Memory (MB): 399.203125
+
+Processing: logs/exec_64_MB_grep/100/metrics
+
+Summary Report:
+CPU Usage: User: 34.88%, System: 4.43%, IO Wait: 0.04%, Idle: 60.65%
+Disk Usage: TPS: 23.11, Read TPS: 1.74, Write TPS: 14.59
+Memory Usage: Avg Used Memory: 4560.27 MB
+Network Usage: RX: 180.08 KB/s, TX: 8793.42 KB/s
+User Time: 5.21
+System Time: 0.72
+Elapsed Time (s): 110.47
+Max Memory (MB): 409.140625
+
+Processing: logs/exec_64_MB_grep/300/metrics
+
+Summary Report:
+CPU Usage: User: 45.25%, System: 5.77%, IO Wait: 0.02%, Idle: 48.96%
+Disk Usage: TPS: 18.77, Read TPS: 0.48, Write TPS: 11.54
+Memory Usage: Avg Used Memory: 4786.11 MB
+Network Usage: RX: 188.05 KB/s, TX: 9008.07 KB/s
+User Time: 7.03
+System Time: 0.95
+Elapsed Time (s): 278.45
+Max Memory (MB): 311.453125
+
+Processing: logs/exec_4_MB_grep/10/metrics
+
+Summary Report:
+CPU Usage: User: 13.18%, System: 1.95%, IO Wait: 0.04%, Idle: 84.82%
+Disk Usage: TPS: 19.18, Read TPS: 1.83, Write TPS: 15.05
+Memory Usage: Avg Used Memory: 4028.02 MB
+Network Usage: RX: 122.62 KB/s, TX: 8754.88 KB/s
+User Time: 5.16
+System Time: 0.84
+Elapsed Time (s): 49.19
+Max Memory (MB): 393.5390625
+
+Processing: logs/exec_4_MB_grep/100/metrics
+
+Summary Report:
+CPU Usage: User: 39.26%, System: 5.54%, IO Wait: 0.03%, Idle: 55.16%
+Disk Usage: TPS: 21.36, Read TPS: 1.36, Write TPS: 14.02
+Memory Usage: Avg Used Memory: 4564.48 MB
+Network Usage: RX: 165.33 KB/s, TX: 8542.10 KB/s
+User Time: 6.45
+System Time: 1.16
+Elapsed Time (s): 130.96
+Max Memory (MB): 295.9296875
+
+Processing: logs/exec_4_MB_grep/300/metrics
+
+Summary Report:
+CPU Usage: User: 48.78%, System: 6.71%, IO Wait: 0.02%, Idle: 44.48%
+Disk Usage: TPS: 18.34, Read TPS: 0.15, Write TPS: 11.43
+Memory Usage: Avg Used Memory: 4913.03 MB
+Network Usage: RX: 174.69 KB/s, TX: 8746.18 KB/s
+User Time: 7.87
+System Time: 1.26
+Elapsed Time (s): 321.43
+Max Memory (MB): 416.05078125
